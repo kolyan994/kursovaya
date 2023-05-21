@@ -3,3 +3,4 @@ os
 dotenv
 json
 tqdm
+pprint
