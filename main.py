@@ -74,7 +74,7 @@ class VkApiHandler:
         return users_photo
 
 #Вводим ID пользователя вконтакте
-user_id = 42145010
+user_id = int(input('Введите ID пользователя Вконтакте'))
 #Получаем токены и версию из .env файла
 vk_token = os.getenv('VK_API_TOKEN')
 version = os.getenv('VERSION')
